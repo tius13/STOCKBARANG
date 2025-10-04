@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JavaFX App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "STOCKBARANG_fa05c59d",
+            "vmArgs": "--module-path \"C:/Users/Ignatius William/Downloads/openjfx-21.0.8_windows-x64_bin-sdk/javafx-sdk-21.0.8/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/resources"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
