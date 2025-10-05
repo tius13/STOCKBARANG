@@ -10,5 +10,6 @@
       <Label text="Menu Utama" />
       <Button mnemonicParsing="false" onAction="#openBarang" text="Manajemen barang" />
       <Button mnemonicParsing="false" onAction="#openSupplier" text="Manajemen supplier" />
+      <Button mnemonicParsing="false" onAction="#openSupplier" text="Manajemen customer" />
    </children>
 </VBox>

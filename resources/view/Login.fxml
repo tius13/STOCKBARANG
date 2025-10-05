@@ -13,6 +13,6 @@
       <TextField fx:id="txtUser" alignment="TOP_LEFT" promptText="Username" />
       <PasswordField fx:id="txtPass" promptText="Password" />
       <Button mnemonicParsing="false" onAction="#loginAction" text="Login" />
-      <Label fx:id="lblStatus" text="Label" />
+      <Label fx:id="lblStatus"/>
    </children>
 </VBox>

@@ -27,7 +27,6 @@ public class LoginController {
 
         if (user.equals("admin") && pass.equals("123")) {
             try {
-                // Ganti window saat login berhasil
                 Stage stage = (Stage) txtUser.getScene().getWindow();
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/Menu.fxml"));
                 Scene scene = new Scene(loader.load());
